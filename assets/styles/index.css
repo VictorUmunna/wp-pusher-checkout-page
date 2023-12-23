@@ -1,0 +1,450 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(245, 248, 250);
+    margin: 0;
+  }
+  
+  main {
+    display: block;
+  }
+  
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  
+  .wp-logo {
+    position: inherit;
+    margin-bottom: -13px;
+    padding-left: 2%;
+    padding-top: 1%;
+  }
+  
+  nav {
+    display: inline-block;
+    padding-left: 720px;
+    font-family: "Lato", Arial;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 17px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: -50px;
+    width: 100%;
+  }
+  
+  .nav-container {
+    width: 1360px;
+    height: 73px;
+    margin-bottom: 28px;
+  }
+  
+  .nav-bar {
+    font-family: "lato";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: center;
+    color: hsla(211, 35%, 17%, 1);
+    margin-left: 15px;
+    width: 100%;
+  }
+  
+  .nav-bar-button {
+    font-family: "lato";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: center;
+    color: hsla(211, 35%, 17%, 1);
+    margin-left: 30px;
+    width: 91px;
+    height: 40px;
+    left: 385px;
+    border-radius: 5px;
+    margin-left: 15px;
+  }
+  
+  #rectangle {
+    width: 100%;
+    height: 2px;
+    background: hsla(204, 18%, 90%, 1);
+    position: inherit;
+    top: 0;
+    left: 0;
+  }
+  
+  .checkout-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px; 
+  }
+
+  .mainbar {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 795px;
+    top: 186px;
+    left: 262px;
+  }
+  
+
+  .first-line {
+    width: 600px;
+    border-color: rgba(245, 248, 250, 0.596);
+    border: 2px thick;
+  }
+
+  .input-form {
+    width: 227px;
+    height: 36px;
+    top: 408px;
+    background: hsla(216, 16%, 94%, 1);
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  .input-email {
+    width: 370px;
+    height: 36px;
+    top: 483px;
+    background: hsla(216, 16%, 94%, 1);
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  .email-label {
+    width: 370px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .name-label {
+    position: inherit;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1,
+  h5 {
+    margin-left: 50px;
+  }
+  
+  h1 {
+    text-shadow: hsla(0, 100%, 50%, 0.25);
+  }
+  
+  h5 {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.1599999964237213px;
+    text-align: left;
+  }
+
+.number, .question-mark{
+    font-size: large;
+    color: rgb(17, 121, 191);
+    border-color: rgb(17, 121, 191);
+    border-radius: 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: thin;
+    padding: 3px;
+    margin-right: 5px;
+  }
+  
+
+  label {
+    display: flex;
+    align-items: center;
+    font-family: "lato";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 6px;
+    color: hsla(211, 35%, 17%, 1);
+  }
+  
+  .info {
+    width: 580px;
+    height: 221px;
+    top: 341px;
+    left: 262px;
+  }
+  
+  .payment-info {
+    width: 580px;
+    height: 154px;
+    top: 595px;
+    left: 262px;
+  }
+  
+
+  
+  .card-form {
+    margin-left: 50px;
+  }
+  
+  .ccn {
+    width: 490px;
+    height: 36px;
+    top: 670px;
+    left: 311px;
+    background: hsla(216, 16%, 94%, 1);
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  .wp-pusher-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 483px;
+    height: 52px;
+    top: 788px;
+    left: 311px;
+    background-color: hsla(173, 96%, 28%, 1);
+    border-radius: 5px;
+    font-family: "lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.39600005745887756px;
+    text-align: center;
+  }
+  
+  .wp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .enquiry {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-top: -10px;
+    text-align: center;
+  }
+  
+  .stripe-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+  }
+  
+
+  .sidebar {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(17, 121, 191);
+    font-family: "lato";
+    color: white;
+    width: 312px;
+    height: 795px;
+    top: 186px;
+    left: 842px;
+    border-radius: 0px, 6px, 6px, 0px;
+  }
+  
+  .freelancer {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  
+  .dollar {
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 1);
+  }
+  
+  .ninety-nine {
+    font-family: "Lato";
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 1);
+    vertical-align: super;
+  }
+  
+  .slash {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+    color: hsla(204, 33%, 97%, 1);
+    vertical-align: sub;
+  }
+  
+  .year {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+    color: hsla(204, 33%, 97%, 1);
+  }
+  
+
+  .sidebar-agency {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+
+  .agency-plan {
+    text-decoration: underline;
+  }
+
+  .checked-list {
+    margin-left: 15px;
+  }
+
+  .renewal-bar {
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.007999998517334461px;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 1);
+    margin-bottom: 30px;
+  }
+  
+  .renewal {
+    margin-left: 15px;
+  }
+  
+  .frame {
+    border-color: rgb(17, 121, 191);
+    border-image: none;
+    border-radius: 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: 5px;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    margin-top: -15px;
+    margin-right: 10px;
+  }
+  
+  
+  .first-sidebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: -30px;
+    gap: -10px;
+  }
+  
+  footer {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  
+  .footer-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+  }
+  
+  .review {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .sidebar-line {
+    width: 224px;
+    opacity: 0.2px;
+    border-color: rgba(245, 248, 250, 0.596);
+  }
+  
+
+
+  
+  .checked-icon {
+    margin-right: 15px;
+    padding-top: 50px;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: row;
+    margin-left: 13px;
+  }
+  
+  .enquiry-bar {
+    text-align: wrap;
+    margin-left: 10px;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .support {
+    margin-left: 30px;
+  }
+  
